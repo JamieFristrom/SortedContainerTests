@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build Debug",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.2/SortedContainerTests.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Core Launch (console) release",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build Release",
+            "program": "${workspaceFolder}/bin/Release/netcoreapp2.2/SortedContainerTests.dll",
+            "args": ["-c", "release"],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },       
+    ]
+}
